@@ -49,7 +49,7 @@ update_every_week()
 {
 (crontab -l | grep -v "$0" ; echo "0 0 * * 4 $0") | crontab -
 
-#Tous les jeudis à 00h00, grâce = $GRACE
+#Jeudis à 00h00, grâce = $GRACE
 }
 
 main()
